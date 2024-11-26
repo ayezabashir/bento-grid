@@ -220,3 +220,54 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 786px) {
+  main {
+    margin: 40px 20px;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    grid-column: unset;
+    grid-row: unset;
+  }
+  .card.card-2 h3 {
+    padding-left: 0;
+  }
+  .card.card-3 img,
+  .card.card-4 img {
+    position: unset;
+    transform: translate(0, 0);
+  }
+  .card.card-3 img {
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  .card.card-4 {
+    padding: 30px 20px;
+  }
+  .card.card-4 img {
+    width: 100%;
+  }
+  .card.card-5 {
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card.card-5 img {
+    width: 100%;
+  }
+  .card.card-7 {
+    align-items: start;
+  }
+  .card-7 img {
+    width: 70%;
+    text-align: left;
+  }
+  .card-8 {
+    gap: 20px;
+  }
+}
