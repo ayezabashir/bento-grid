@@ -13,8 +13,8 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Go to see Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-mI0aRB-fsE)
+- Live Site URL: [Live site URL](https://ayezabashir.github.io/bento-grid/)
 
 ### Built with
 
